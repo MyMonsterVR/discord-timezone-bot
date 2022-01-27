@@ -4,6 +4,8 @@ const {
   MessageActionRow,
   MessageButton,
 } = require("discord.js");
+require("dotenv").config();
+
 const fetch = (...args) =>
   import("node-fetch").then(({ default: fetch }) => fetch(...args));
 
@@ -79,4 +81,4 @@ client.on("ready", () => {
   }, 600000);
 });
 
-client.login(process.env.token);
+client.login(process.env.DJS_token);
