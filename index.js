@@ -81,4 +81,4 @@ client.on("ready", () => {
   }, 600000);
 });
 
-client.login(process.env.DJS_token);
+client.login(process.env.BOT_TOKEN);
