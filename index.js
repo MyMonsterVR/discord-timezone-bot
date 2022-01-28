@@ -13,9 +13,9 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
 client.on("ready", () => {
   console.log("I am up and running");
-  const eurTimeId = "936387757893369876";
-  const pstTimeId = "936390722951725127";
-  const estTimeId = "936390762747293706";
+  const eurTimeId = "936392703363670066";
+  const pstTimeId = "936392924378312765";
+  const estTimeId = "936392893055250542";
 
   // One time check
   fetch(
