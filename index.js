@@ -105,7 +105,7 @@ client.on("ready", () => {
           .get(estTimeId)
           .setName(`EST: ${estTime["time"].slice(0, 2)}AM`);
     })
-    .catch((err) => console.throw(err));
+    .catch((err) => console.error(err));
   }, 600000);
 });
 
